@@ -1,0 +1,60 @@
+.bug{
+    background-color: rgba(255, 0, 0, 0.37);
+}
+
+
+header{
+    height: 60px;
+    background-color: #E6EBEE;
+}
+
+
+main{
+    height: calc(100vh - 130px);
+    background-color: #A28671;
+}
+/* GRID */
+.cg-container{
+    width: 400px;
+    height: 400px;
+    margin:20px auto;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #D2B08B;
+}
+
+.active{
+    background-color: lightblue;
+}
+
+.bomb{
+    background-color: red;
+}
+
+.box.b100{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.box.b81{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.box.b49{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+footer{
+    height: 70px;
+    background-color: #E6EBEE;
+}
